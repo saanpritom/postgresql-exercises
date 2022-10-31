@@ -3,6 +3,6 @@
   Yes, this is a contrived example :-). Produce that list!
  */
 
- SELECT surname FROM members
+ SELECT surname FROM cd.members
  UNION
- SELECT name AS surname FROM facilities;
+ SELECT name AS surname FROM cd.facilities;

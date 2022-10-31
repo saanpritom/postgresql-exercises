@@ -8,4 +8,4 @@ SELECT name,
            WHEN monthlymaintenance > 100 THEN 'expensive'
        ELSE 'cheap'
        END AS cost
-       FROM facilities;
+       FROM cd.facilities;

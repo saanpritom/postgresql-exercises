@@ -4,7 +4,7 @@
 -- Data for Name: facilities; Type: TABLE DATA; Schema: cd; Owner: -
 --
 
-INSERT INTO facilities (facid, name, membercost, guestcost, initialoutlay, monthlymaintenance) VALUES
+INSERT INTO cd.facilities (facid, name, membercost, guestcost, initialoutlay, monthlymaintenance) VALUES
 (0, 'Tennis Court 1', 5, 25, 10000, 200),
 (1, 'Tennis Court 2', 5, 25, 8000, 200),
 (2, 'Badminton Court', 0, 15.5, 4000, 50),

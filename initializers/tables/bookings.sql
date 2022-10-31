@@ -2,7 +2,7 @@
 -- Database table creation and population script.
 --
 
-CREATE TABLE IF NOT EXISTS bookings (
+CREATE TABLE IF NOT EXISTS cd.bookings (
     bookid integer NOT NULL,
     facid integer NOT NULL,
     memid integer NOT NULL,

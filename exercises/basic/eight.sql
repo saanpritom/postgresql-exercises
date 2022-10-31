@@ -3,4 +3,4 @@
   surname, firstname, and joindate of the members in question.
  */
 
- SELECT memid, surname, firstname, joindate FROM members WHERE joindate > '09/01/2012';
+ SELECT memid, surname, firstname, joindate FROM cd.members WHERE joindate > '09/01/2012';

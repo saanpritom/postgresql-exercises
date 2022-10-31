@@ -3,6 +3,6 @@ How can you produce a list of facilities that charge a fee to members, and that 
 maintenance cost? Return the facid, facility name, member cost, and monthly maintenance of the facilities in question.
 **/
 
-SELECT facid, name, membercost, monthlymaintenance FROM facilities WHERE membercost > 0
+SELECT facid, name, membercost, monthlymaintenance FROM cd.facilities WHERE membercost > 0
                                                                      AND membercost < monthlymaintenance / 50;
 

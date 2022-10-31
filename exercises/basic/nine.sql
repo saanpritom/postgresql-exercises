@@ -3,4 +3,4 @@
   The list must not contain duplicates.
  */
 
-SELECT DISTINCT surname FROM members ORDER BY surname LIMIT 10;
+SELECT DISTINCT surname FROM cd.members ORDER BY surname LIMIT 10;

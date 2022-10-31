@@ -3,7 +3,7 @@
 -- Name: facilities; Type: TABLE; Schema: cd; Owner: -; Tablespace:
 --
 
-CREATE TABLE IF NOT EXISTS facilities (
+CREATE TABLE IF NOT EXISTS cd.facilities (
     facid integer NOT NULL,
     name character varying(100) NOT NULL,
     membercost numeric NOT NULL,

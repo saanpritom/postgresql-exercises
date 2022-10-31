@@ -3,7 +3,7 @@
 -- Name: members; Type: TABLE; Schema: cd; Owner: -; Tablespace:
 --
 
-CREATE TABLE IF NOT EXISTS members (
+CREATE TABLE IF NOT EXISTS cd.members (
     memid integer NOT NULL,
     surname character varying(200) NOT NULL,
     firstname character varying(200) NOT NULL,

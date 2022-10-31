@@ -2,7 +2,7 @@
 -- Inserting Demo data into bookings table.
 --
 
-INSERT INTO bookings (bookid, facid, memid, starttime, slots) VALUES
+INSERT INTO cd.bookings (bookid, facid, memid, starttime, slots) VALUES
 (0, 3, 1, '2012-07-03 11:00:00', 2),
 (1, 4, 1, '2012-07-03 08:00:00', 2),
 (2, 6, 0, '2012-07-03 18:00:00', 2),
